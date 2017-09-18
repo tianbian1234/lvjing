@@ -1,0 +1,127 @@
+.container-about {
+    position: relative;
+    width: 100%;
+    height:515px;
+    background: #2aabd2;
+    z-index: 0;
+    background: url("../images/about/about.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.container-about .about-text {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.container-about .about-text h1 {
+    height: 70px;
+    line-height: 70px;
+    font-size: 50px;
+    color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.container-about .about-text p {
+    color: #ffffff;
+    font-size: 16px;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.contact-form {
+    background: #ffffff;
+    padding: 147px 0;
+    border-bottom: 1px solid #515663;
+    height: 338px;
+}
+.contact-form .container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#map {
+    width: 50%;
+    float: left;
+    height: 352px;
+    border:1px solid #cccccc;
+    box-shadow: 0 7px 25px RGBA(102,102,102, 0.12);
+}
+.contact-form .row{
+    float: right;
+    width: 50%;
+    margin-left: 66px;
+}
+.contact-form .row > div {
+    margin-top: 45px;
+}
+.contact-form h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #666666;
+}
+.contact-form h2.border-bottom{
+    margin-bottom: 62px;
+}
+
+.contact-form p {
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.contact-form p img {
+    margin-right: 20px;
+}
+.contact-form form {
+    padding: 20px 15px;
+    background: #333946;
+}
+.contact-form form h2 {
+    margin: 0 0 10px 0;
+}
+.contact-form form input.form-control {
+    height: 50px;
+    padding: 15px 12px;
+}
+.contact-form form button {
+    height: 50px;
+}
+
+@media screen and (max-width: 960px) {
+    .container-about .about-text {
+        position: absolute;
+        left:5%;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .contact-form {
+        height: 100%;
+        padding: 60px 0;
+    }
+    .contact-form .container{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #map {
+        width: 60%;
+        float: left;
+        height: 352px;
+        margin: 0 auto;
+    }
+    .contact-form .row{
+        float: right;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}

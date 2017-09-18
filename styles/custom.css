@@ -1,0 +1,28 @@
+body {
+    position: relative;
+}
+.modal-picture {
+    display: none;
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+}
+.modal-picture .masking {
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity:0.5;
+}
+.modal-picture img {
+    position: fixed;
+    width: 70%;
+    left:15%;
+    top:10%;
+    opacity: 1;
+}

@@ -1,0 +1,237 @@
+.container-product {
+    position: relative;
+    max-width: 100%;
+    height:764px;
+    z-index: 0;
+    background: url("../images/product/bannerP.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 5px 30px RGBA(0, 0, 0, 0.15);
+}
+
+.content-pro {
+    display: flex;
+    align-items: flex-end;
+    flex-direction:column;
+}
+
+.product-inter{
+    width: 100%;
+    margin-bottom: 65px;
+    text-align: center;
+}
+.product-inter h1{
+    color: #ffffff;
+    font-size: 50px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 165px;
+    margin-bottom: 40px;
+}
+.product-inter p{
+    max-width: 786px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 18px;
+  line-height: 30px;
+}
+.content-pro img{
+    max-width: 90%;
+    height: 364px;
+    margin: 0 auto;
+}
+/*中间的内容展示卡片*/
+.container-center{
+    max-width: 100%;
+    margin: 0 auto;
+}
+.container-center .product-card-box {
+    position: relative;
+    max-width: 100%;
+    height: 600px;
+}
+.product-card-box-2 {
+  background: url("../images/product/product_back1.jpg");
+}
+.product-card-box-4 {
+  background: url("../images/product/product_back2.jpg");
+}
+.container-center .product-card{
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.container-center .product-card img {
+    width: 923px;
+    height: 423px;
+    margin-left: 25px;
+}
+.container-center .product-card-1 img {
+    margin-left: 0;
+    margin-right: 30px;
+}
+.container-center .product-card .text {
+    margin-bottom: 200px;
+    width: 252px;
+}
+.container-center .product-card .text h4{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.container-center .product-card .text p {
+    font-size: 16px;
+    color: #999999;
+    line-height: 30px;
+}
+.container-center .product-card-box .color-from {
+    position: absolute;
+    width: 100%;
+    height: 160px;
+    bottom: 0;
+    background:-moz-linear-gradient(bottom, rgba(0, 0, 0, 0.06), rgba(0, 0, 255, 0));
+    background:-webkit-gradient(linear, 0 bottom, 0 0, from(rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 255, 0)));
+    background:-o-linear-gradient(bottom, rgba(0, 0, 0, 0.06), rgba(0, 0, 255, 0));
+}
+/*方案设置*/
+.product-fangan {
+    width: 100%;
+    height: 600px;
+    padding-top: 114px;
+    background: #ffffff;
+}
+.product-fangan  .content h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+/*底部设置*/
+.container-custom-product{
+    height: 320px;
+}
+
+@media screen and (max-width: 960px) {
+    .container-product {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: url("../images/product/bannerP.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+    .product-inter{
+        width: 100%;
+        margin-bottom: 65px;
+        text-align: center;
+    }
+    .product-inter h1{
+        color: #ffffff;
+        font-size: 50px;
+        height: 100%;
+        line-height: 70px;
+        margin-top: 165px;
+        margin-bottom: 40px;
+    }
+    .product-inter p{
+        max-width: 70%;
+        margin: 0 auto;
+        color: #ffffff;
+        font-size: 18px;
+      line-height: 30px;
+    }
+    .content-pro img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    /*方案设置*/
+    .product-fangan {
+        width: 100%;
+        height: 100%;
+        padding-top: 30px;
+        background: #ffffff;
+    }
+    .product-fangan  .content .card-box{
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+    }
+    .product-fangan  .content .card-box .card {
+        margin: 30px auto;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+    }
+    .product-fangan  .content h1 {
+        margin-bottom: 30px;
+    }
+
+    /*底部设置*/
+    .container-custom-product{
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    /*中间的内容展示卡片*/
+    .container-center{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .container-center .product-card-box {
+        position: relative;
+        max-width: 100%;
+        height: 100%;
+    }
+    .container-center .product-card {
+        max-width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction:column;
+        align-items: flex-start;
+    }
+    .container-center .product-card-1 {
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    .container-center .product-card img {
+        width: 90%;
+        height: 90%;
+        margin: 0 auto;
+        align-items: flex-end;
+    }
+    .container-center .product-card-1 img {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .container-center .product-card .text {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .container-center .product-card .text h4{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .container-center .product-card .text p {
+        font-size: 16px;
+        line-height: 30px;
+        color: #999999;
+    }
+    .container-center .product-card-box .color-from {
+        position: absolute;
+        width: 100%;
+        height: 160px;
+        bottom: 0;
+        background:-moz-linear-gradient(bottom, rgba(0, 0, 0, 0.06), rgba(0, 0, 255, 0));
+        background:-webkit-gradient(linear, 0 bottom, 0 0, from(rgba(0, 0, 0, 0.06)), to(rgba(0, 0, 255, 0)));
+        background:-o-linear-gradient(bottom, rgba(0, 0, 0, 0.06), rgba(0, 0, 255, 0));
+    }
+}

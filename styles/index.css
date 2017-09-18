@@ -1,0 +1,576 @@
+.container-index {
+    position: relative;
+    width: 100%;
+    background: url("../images/index/bannerC.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container-nav-custom {
+    position: relative;
+    width: 100%;
+    height: 630px;
+    background: url("../images/index/bannerC.jpg");
+    background-size: cover;
+    z-index: 1;
+    background-position: center;
+}
+
+.custom-text{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    text-align: center;
+}
+.custom-text h1 {
+    font-size: 50px;
+    height: 70px;
+    line-height: 70px;
+    color: #ffffff;
+    margin-top: 165px;
+    margin-bottom: 20px;
+}
+.custom-text p {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+.container-1 {
+    position: relative;
+    margin: 0 auto;
+    margin-top: -150px;
+    width: 100%;
+    max-width: 1200px;
+    height: 420px;
+    display: flex;
+    z-index: 2;
+    justify-content:space-between;
+
+}
+.container-1 .card {
+    text-align: center;
+    width: 179px;
+    height: 235px;
+    padding: 92px 62px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px RGBA(0, 0, 0, 0.18);
+}
+.container-1 .card h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.container-1 .card p{
+    color: #999999;
+    font-size: 16px;
+}
+.container-1 .card img {
+    width: 83px;
+    height: 82px;
+}
+
+/*产品中间展示*/
+.container-center{
+    width: 100%;
+    max-width: 1200px;
+    margin: 95px auto;
+}
+.container-center .title{
+    margin-bottom: 107px;
+    color: #333333;
+    text-align: center;
+}
+.container-center .title h1{
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 14px;
+}
+.container-center .title h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 54px;
+}
+.container-center .title p{
+    font-size: 16px;
+    color: #999999;
+    margin: 0 auto;
+    max-width: 817px;
+}
+/*中心内容卡片，轮播组件加上文字显示*/
+.param-card {
+    padding-top: 20px;
+    width: 100%;
+    height: 358px;
+    margin-bottom: 100px;
+    display: flex;
+}
+.param-card .swiper-box{
+    position: relative;
+    width: 720px;
+    height: 338px;
+}
+.param-card .swiper-box .swiper-container .swiper-wrapper .swiper-slide img {
+    height: 100%;
+}
+.param-card .swiper-box:hover .swiper-button-prev, .param-card .swiper-box:hover .swiper-button-next {
+    display: block;
+}
+.param-card .swiper-container {
+    margin-left: 60px;
+    width: 600px;
+    height: 338px;
+    box-shadow: 0 20px 40px RGBA(0, 0, 0, 0.05);
+}
+.swiper-pagination {
+    margin-top: 30px;
+    left:50%;
+    margin-left:-21px;
+}
+.swiper-pagination span{
+    margin-right: 10px;
+}
+.swiper-button-prev {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url("../images/index/huiLeft.png");
+    background-size: cover;
+}
+.swiper-button-prev:hover {
+    width:40px;
+    height:40px;
+    background: url("../images/index/lvLeft.png");
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px RGBA(35, 193, 50, 0.2);
+}
+.swiper-button-next {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: url("../images/index/huiRight.png");
+    background-size: cover;
+}
+.swiper-button-next:hover {
+    width: 40px;
+    height: 40px;
+    background: url("../images/index/lvRight.png");
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px RGBA(35, 193, 50, 0.2);
+}
+.swiper-pagination-bullet {
+    background: #d8d8d8;
+    opacity:1;
+}
+.swiper-pagination-bullet-active {
+    background: #23c132;
+}
+
+.content-slide {
+    margin-left: 58px;
+    width: 360px;
+}
+.content-slide h2{
+    color: #333333;
+    font-size: 40px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.content-slide h5{
+    color: #666666;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+.content-slide p {
+    color: #333333;
+    font-size: 16px;
+}
+.content-slide-left {
+    margin-right: 60px;
+}
+
+/*产品底部轮播展示*/
+.container-center-bottom{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+    text-align: center;
+}
+.container-center-bottom .title h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.container-center-bottom .title  h4 {
+    font-size: 24px;
+    font-weight: 400;
+}
+.container-center-bottom .content{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 65px;
+    flex-wrap: wrap;
+}
+.container-center-bottom .content .text img {
+    width: 160px;
+    height: 160px;
+    margin-left: 120px;
+}
+.container-center-bottom .content .text{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 65px;
+}
+.container-center-bottom .content .text p {
+    font-weight: 400;
+}
+.container-center-bottom .content .text p:first-of-type {
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 679px) {
+    .custom-text h1 {
+        height:100%;
+    }
+
+    /*三个卡片的显示*/
+    .container-1 {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1167px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+
+    }
+    .container-1 .card {
+        text-align: center;
+        width: 80%;
+        height: 235px;
+        padding: 0;
+        margin: 92px auto;
+        background: #ffffff;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .container-1 .card img {
+        width: 83px;
+        height: 82px;
+    }
+
+    .param-card {
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .param-card-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .param-card .swiper-box, .swiper-box1, .swiper-box2, .swiper-box3{
+        position: relative;
+        width: 90%;
+        height: 338px;
+        margin: 0 auto;
+    }
+    .param-card .swiper-container {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+        height: 338px;
+    }
+    .content-slide {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .content-slide h2{
+        color: #666666;
+        font-size: 36px;
+    }
+    .content-slide h5{
+        color: #666666;
+        font-size: 20px;
+    }
+    .content-slide p {
+        color: #333333;
+        font-size: 16px;
+    }
+
+  /*产品底部轮播展示*/
+  .container-center-bottom{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+    text-align: center;
+  }
+  .container-center-bottom .title h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .container-center-bottom .title  h4 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .container-center-bottom .content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 65px;
+    flex-wrap: wrap;
+  }
+  .container-center-bottom .content .text img {
+    width: 160px;
+    height: 160px;
+    margin-left: 70px;
+  }
+  .container-center-bottom .content .text{
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+  .container-center-bottom .content .text p {
+    font-weight: 400;
+  }
+  .container-center-bottom .content .text p:first-of-type {
+    margin-top: 35px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 680px) and (max-width: 959px) {
+    /*三个卡片的显示*/
+    .container-1 {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1167px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+
+    }
+    .container-1 .card {
+        text-align: center;
+        width: 80%;
+        height: 235px;
+        padding: 0;
+        margin: 92px auto;
+        background: #ffffff;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .container-1 .card img {
+        width: 83px;
+        height: 82px;
+    }
+
+    .param-card {
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .param-card-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .param-card .swiper-box{
+        position: relative;
+        width: 600px;
+        height: 338px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .param-card .swiper-container {
+        display: block;
+        margin-left: 0;
+        width: 100%;
+        height: 338px;
+    }
+    .content-slide {
+        width: 600px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .content-slide h2{
+        color: #666666;
+        font-size: 36px;
+    }
+    .content-slide h5{
+        color: #666666;
+        font-size: 20px;
+    }
+    .content-slide p {
+        color: #333333;
+        font-size: 16px;
+    }
+  /*产品底部轮播展示*/
+  .container-center-bottom{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 160px;
+    text-align: center;
+  }
+  .container-center-bottom .title h1 {
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  .container-center-bottom .title  h4 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .container-center-bottom .content{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 65px;
+    flex-wrap: wrap;
+  }
+  .container-center-bottom .content .text img {
+    width: 160px;
+    height: 160px;
+    margin-left: 70px;
+  }
+  .container-center-bottom .content .text{
+    width: 300px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 65px;
+  }
+  .container-center-bottom .content .text p {
+    font-weight: 400;
+  }
+  .container-center-bottom .content .text p:first-of-type {
+    margin-top: 35px;
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 960px) and (max-width: 1200px) {
+      /*产品底部轮播展示*/
+    .container-center-bottom{
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 160px;
+      text-align: center;
+    }
+    .container-center-bottom .title h1 {
+      font-size: 48px;
+      font-weight: 400;
+      margin-bottom: 30px;
+    }
+    .container-center-bottom .title  h4 {
+      font-size: 24px;
+      font-weight: 400;
+    }
+    .container-center-bottom .content{
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 130px;
+      margin-bottom: 65px;
+      flex-wrap: wrap;
+    }
+    .container-center-bottom .content .text img {
+      width: 160px;
+      height: 160px;
+      margin-left: 120px;
+    }
+    .container-center-bottom .content .text{
+      width: 400px;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      text-align: center;
+      margin-bottom: 65px;
+    }
+    .container-center-bottom .content .text p {
+      font-weight: 400;
+    }
+    .container-center-bottom .content .text p:first-of-type {
+      margin-top: 35px;
+      font-size: 16px;
+    }
+    /*轮播卡片设置*/
+    .param-card {
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .param-card-1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .param-card .swiper-box{
+        position: relative;
+        width: 720px;
+        height: 338px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .param-card .swiper-container {
+        display: block;
+        margin-left: 60px;
+        width: 100%;
+        height: 338px;
+    }
+    .content-slide {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .content-slide h2{
+        color: #666666;
+        font-size: 36px;
+    }
+    .content-slide h5{
+        color: #666666;
+        font-size: 20px;
+    }
+    .content-slide p {
+        color: #333333;
+        font-size: 16px;
+    }
+
+}

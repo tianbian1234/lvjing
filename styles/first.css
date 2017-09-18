@@ -1,0 +1,587 @@
+.container-index {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+}
+.container-index .nav-container{
+    position: absolute;
+    left: 50%;
+    margin-left: -720px;
+    top: 0;
+    z-index: 2;
+}
+
+/*banner展示*/
+.container-index .swiper-container {
+    width: 100%;
+}
+.container-index .swiper-container .swiper-slide img {
+    width: 100%;
+}
+.container-index .swiper-container .swiper-slide .imgBack1 {
+   background: url("../images/first/banner1.jpg");
+}
+.container-index .swiper-container .swiper-slide .imgBack2 {
+  background: url("../images/first/banner2.jpg");
+}
+.container-index .swiper-container .swiper-slide .imgBack3 {
+  background: url("../images/first/banner3.jpg");
+}
+.container-index .swiper-container .swiper-slide .imgBack {
+  height: 780px;
+  background-size: cover;
+  background-position: center;
+}
+.container-index .swiper-container .swiper-slide {
+    position: relative;
+}
+.container-index .swiper-container .swiper-slide .text {
+    position: absolute;
+    width: 100%;
+    left:0;
+    top: 10%;
+    text-align: center;
+}
+.container-index .swiper-container .swiper-slide .text h1 {
+    color: #ffffff;
+    font-size: 48px;
+    height: 70px;
+    line-height: 70px;
+    margin-top: 52px;
+    margin-bottom: 20px;
+}
+.container-index .swiper-container .swiper-slide .text p {
+    color: #ffffff;
+    letter-spacing: 5px;
+  font-size: 18px;
+}
+.container-index .swiper-container .swiper-pagination {
+    bottom: 25px;
+    margin-left: 13px;
+}
+.container-index .swiper-container .swiper-pagination-bullet{
+    margin-right: 30px;
+    background: RGBA(0, 0, 0, 0);
+    opacity:1;
+    border:1px solid #ffffff;
+}
+.container-index .swiper-container .swiper-pagination-bullet-active {
+    background: #ffffff;
+}
+
+/*第一个大卡片*/
+.index-center-one{
+    width: 100%;
+    height: 547px;
+}
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.content h1{
+    font-size: 48px;
+    font-weight: 400;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    margin-top: 110px;
+    margin-bottom: 76px;
+}
+.content .information{
+    width: 691px;
+    height: 340px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content .information .card {
+    display: flex;
+}
+
+.content .information .card img{
+    margin-right: 28px;
+}
+.content .information .card div {
+    width: 190px;
+}
+.content .information .card div h4 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+.content .information .card div p {
+    font-size: 16px;
+    font-weight: normal;
+    color: #999999;
+}
+    /*第二个大卡片*/
+.index-center-two {
+    width: 100%;
+    height: 642px;
+    padding-top: 114px;
+    background: #eeeeee;
+}
+.index-center-two .content {
+    width: 90%;
+    margin: 0 auto;
+}
+.index-center-two .content h1 {
+    font-size: 48px;
+    margin-top: 0;
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 35px;
+}
+.index-center-two .content .info{
+    width: 628px;
+    color: #999999;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 98px;
+}
+.index-center-two .content .card-box{
+    max-width: 1060px;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.index-center-two .content .card-box .card {
+    width:180px;
+    height: 100%;
+    text-align: center;
+}
+.index-center-two .content .card-box .card img {
+    margin-bottom: 30px;
+}
+.index-center-two .content .card-box .card h4 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.index-center-two .content .card-box .card p {
+    font-size: 16px;
+    color: #999999;
+}
+
+/*第三个大卡片*/
+.index-center-one .swiper-box {
+    position: relative;
+    max-width: 1090px;
+    height: 258px;
+    margin: 0 auto;
+}
+.index-center-one .swiper-box .swiper-container {
+    width: 970px;
+    height: 258px;
+}
+
+.index-center-one .swiper-box .swiper-container .swiper-slide{
+    position: relative;
+    background: #ffffff;
+}
+.index-center-one .swiper-box .swiper-container .swiper-slide .card-container{
+    width: 98%;
+    height: 75%;
+    margin: 37px auto 10px;
+    border:1px solid RGBA(151, 151, 151, 0.18);
+    box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
+}
+
+.index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box {
+    position: relative;
+    height: 37px;
+}
+.index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box > img {
+   position: absolute;
+    left:50%;
+    top:-37px;
+    margin-left: -37px;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    border: 1px solid RGBA(151, 151, 151, 0.18);
+    box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
+}
+.index-center-one .swiper-box .swiper-container .swiper-slide .card-container > div {
+    position: relative;
+    width:382px;
+    margin: 0 auto;
+}
+
+.index-center-one .swiper-box .swiper-container .swiper-slide .card-container > div .yinhao {
+  position: absolute;
+  right:0;
+  top:20px;
+}
+
+.index-center-one .swiper-box .swiper-container .swiper-slide .card-container h2{
+    margin-top: 8px;
+    margin-bottom: 3px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 22px;
+    color: #666666;
+}
+.index-center-one .swiper-box .swiper-container .swiper-slide .card-container .small-title{
+    font-size: 12px;
+    height: 17px;
+    line-height: 17px;
+    margin-bottom: 17px;
+    color: #999999;
+}
+.index-center-one .swiper-box .swiper-container .swiper-slide .card-container .content{
+    font-size: 14px;
+    color: #888888;
+}
+
+.swiper-box:hover .swiper-button-prev, .swiper-box:hover .swiper-button-next {
+    display: block;
+}
+
+.index-center-one .swiper-box .swiper-pagination {
+    margin-top: 0;
+}
+
+
+/*底部设置*/
+.container-custom-index{
+    height: 320px;
+}
+
+@media screen and (max-width: 680px) {
+    /*第一个大卡片*/
+    .index-center-one{
+        width: 100%;
+        height: 100%;
+    }
+    .content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .content h1{
+        font-size: 50px;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+        margin-top: 43px;
+        margin-bottom: 76px;
+    }
+    .content .information{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .content .information .card {
+        display: flex;
+        margin: 30px auto;
+    }
+
+    /*第二个大卡片*/
+    .index-center-two {
+        width: 100%;
+        height: 100%;
+        padding-top: 114px;
+        background: #eeeeee;
+    }
+    .index-center-two .content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .index-center-two .content h1 {
+        font-size: 50px;
+        margin-top: 0;
+        height: 100%;
+        margin-bottom: 35px;
+    }
+    .index-center-two .content .info{
+        width: 90%;
+        color: #999999;
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 98px;
+    }
+    .index-center-two .content .card-box{
+        width: 100%;
+        height: 100%;
+        margin: 30px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .index-center-two .content .card-box .card {
+        width: 80%;
+        margin: 0 auto;
+        height: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*banner展示*/
+    .container-index .swiper-container {
+        width: 100%;
+    }
+    .container-index .swiper-container .swiper-slide img {
+        width: 100%;
+    }
+    .container-index .swiper-container .swiper-slide {
+        position: relative;
+    }
+    .container-index .swiper-container .swiper-slide .text {
+        position: absolute;
+        width: 100%;
+        left:0;
+        top: 30px;
+        text-align: center;
+    }
+    .container-index .swiper-container .swiper-slide .text h1 {
+        color: #ffffff;
+        font-size: 20px;
+        height: 56px;
+        line-height: 56px;
+        margin-bottom: 13px;
+    }
+    .container-index .swiper-container .swiper-slide .text p {
+        font-size: 12px;
+        color: #ffffff;
+        letter-spacing: 5px;
+    }
+    /*第三个大卡片*/
+    .index-center-one {
+        height: 100%;
+    }
+    .index-center-one .swiper-box {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .index-center-one .swiper-box .swiper-container {
+        width: 80%;
+        height: 440px;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide{
+        position: relative;
+        background: #ffffff;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container{
+        width: 98%;
+        height: 75%;
+        margin: 37px auto 10px;
+        border:1px solid RGBA(151, 151, 151, 0.18);
+        box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box {
+        position: relative;
+        height: 37px;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box > img {
+        position: absolute;
+        left:50%;
+        top:-37px;
+        margin-left: -37px;
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        border: 1px solid RGBA(151, 151, 151, 0.18);
+        box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container > div {
+        width:80%;
+        margin: 0 auto;
+    }
+
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container > div .yinhao {
+      display: none;
+      position: absolute;
+      right:0;
+      top:20px;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container h2{
+        margin-top: 8px;
+        margin-bottom: 3px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 22px;
+        color: #666666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .small-title{
+        font-size: 12px;
+        height: 17px;
+        line-height: 17px;
+        margin-bottom: 21px;
+        color: #999999;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .content{
+        font-size: 14px;
+        color: #888888;
+    }
+
+    .swiper-box:hover .swiper-button-prev, .swiper-box:hover .swiper-button-next {
+        display: block;
+    }
+
+    .index-center-one .swiper-box .swiper-pagination {
+        margin-top: -30px;
+        left:50%;
+        margin-left:-17px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .container-index .nav-container{
+        position:absolute;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+        z-index: 2;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .container-index .nav-container{
+        position:absolute;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+        z-index: 2;
+    }
+    /*第三个大卡片*/
+    .index-center-one {
+        height: 100%;
+    }
+    .index-center-one .swiper-box {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .index-center-one .swiper-box .swiper-container {
+        width: 80%;
+        height: 350px;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide{
+        position: relative;
+        background: #ffffff;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container{
+        width: 98%;
+        height: 75%;
+        margin: 37px auto 10px;
+        border:1px solid RGBA(151, 151, 151, 0.18);
+        box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box {
+        position: relative;
+        height: 37px;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box > img {
+        position: absolute;
+        left:50%;
+        top:-37px;
+        margin-left: -37px;
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        border: 1px solid RGBA(151, 151, 151, 0.18);
+        box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container > div {
+        width:80%;
+        margin: 0 auto;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container h2{
+        margin-top: 8px;
+        margin-bottom: 3px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 22px;
+        color: #666666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .small-title{
+        font-size: 12px;
+        height: 17px;
+        line-height: 17px;
+        margin-bottom: 21px;
+        color: #999999;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .content{
+        font-size: 14px;
+        color: #888888;
+    }
+
+    .swiper-box:hover .swiper-button-prev, .swiper-box:hover .swiper-button-next {
+        display: block;
+    }
+
+    .index-center-one .swiper-box .swiper-pagination {
+        margin-top: -30px;
+        left:50%;
+        margin-left:-17px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .container-index .nav-container{
+        position:absolute;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    /*banner展示*/
+    .container-index .swiper-container {
+        width: 100%;
+    }
+    .container-index .swiper-container .swiper-slide img {
+        width: 100%;
+    }
+    .container-index .swiper-container .swiper-slide .imgBack {
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+    }
+    .container-index .swiper-container .swiper-slide {
+        position: relative;
+    }
+    .container-index .swiper-container .swiper-slide .text {
+        position: absolute;
+        width: 100%;
+        left:0;
+        top: 8%;
+        text-align: center;
+    }
+    .container-index .swiper-container .swiper-slide .text h1 {
+        color: #ffffff;
+        font-size: 30px;
+        height: 56px;
+        line-height: 56px;
+        margin-bottom: 13px;
+    }
+    .container-index .swiper-container .swiper-slide .text p {
+        color: #ffffff;
+        font-size: 16px;
+        letter-spacing: 5px;
+    }
+}
