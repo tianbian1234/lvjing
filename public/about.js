@@ -4,9 +4,9 @@ $(document).ready(function () {
 //初始化百度地图
 function initialize() {
     var map = new BMap.Map("map");
-    map.centerAndZoom(new BMap.Point(116.340473, 39.993776), 17);
+    map.centerAndZoom(new BMap.Point(116.824587,38.297058), 17);
     // map.enableScrollWheelZoom();
-    var pt = new BMap.Point(116.340473, 39.993776);
+    var pt = new BMap.Point(116.824587,38.297058);
     var myIcon = new BMap.Icon("images/about/green.png", new BMap.Size(60,60));
     var marker2 = new BMap.Marker(pt,{icon:myIcon});  // 创建标注
     map.addOverlay(marker2);

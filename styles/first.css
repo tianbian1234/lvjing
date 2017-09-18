@@ -115,6 +115,94 @@
     font-weight: normal;
     color: #999999;
 }
+
+   /*第四个大卡片*/
+   .index-center-three{
+    position: relative;
+    width: 100%;
+    height: 642px;
+    background: #eeeeee;
+}
+.index-center-three .content{
+    padding-top: 5px;
+}
+.index-center-three .content .information{
+    width: 800px;
+    height: 340px;
+    display: flex;
+    flex-direction: row;
+}
+.index-center-three .content .information .card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background: RGBA(0, 0, 0, 0.1)
+}
+.index-center-three .content .information .card img{
+    margin-left: 72px;
+    margin-top: 30px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition:transform 2s;
+    -moz-transition:transform 2s; /* Firefox 4 */
+    -webkit-transition:transform 2s; /* Safari and Chrome */
+    -o-transition:transform 2s; /* Opera */
+}
+.index-center-three .content .information .card img:hover{
+    transform: rotate(-180deg)
+}
+.index-center-three .content .information .card> div{
+    width: 180px;
+    margin: 20px 10px 0 10px;
+}
+.index-center-three .content .information .card> div>h4{
+    width: 100%;
+    text-align: center;
+}
+    /*第五个大卡片*/
+.index-center-four{
+    width: 100%;
+    height: 812px;
+    background: #ffffff;
+}
+.index-center-four .content .information{
+    width: 600px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.index-center-four .content .information .card{
+    position: relative;
+    width: 180px;
+    height: 160px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.index-center-four .content .information .card img{
+    width: 180px;
+    height: 160px;
+    margin: 0;
+    cursor: pointer;
+    transition: all 1s;
+}
+.index-center-four .content .information .card img:hover{
+    transform: scale(1.4);
+}
+
+.index-center-four .content .information .card h4{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    background: RGBA(0, 0, 0, 0.2)
+}
+
     /*第二个大卡片*/
 .index-center-two {
     width: 100%;
@@ -170,12 +258,12 @@
 .index-center-one .swiper-box {
     position: relative;
     max-width: 1090px;
-    height: 258px;
+    height: 358px;
     margin: 0 auto;
 }
 .index-center-one .swiper-box .swiper-container {
     width: 970px;
-    height: 258px;
+    height: 358px;
 }
 
 .index-center-one .swiper-box .swiper-container .swiper-slide{
@@ -243,6 +331,7 @@
 
 .index-center-one .swiper-box .swiper-pagination {
     margin-top: 0;
+    margin-left: -90px;
 }
 
 
@@ -365,7 +454,7 @@
     }
     .index-center-one .swiper-box .swiper-container {
         width: 80%;
-        height: 440px;
+        height: 540px;
     }
     .index-center-one .swiper-box .swiper-container .swiper-slide{
         position: relative;
@@ -437,7 +526,7 @@
     .index-center-one .swiper-box .swiper-pagination {
         margin-top: -30px;
         left:50%;
-        margin-left:-17px;
+        margin-left:-90px;
     }
 }
 @media screen and (max-width: 960px) {
@@ -471,7 +560,7 @@
     }
     .index-center-one .swiper-box .swiper-container {
         width: 80%;
-        height: 350px;
+        height: 450px;
     }
     .index-center-one .swiper-box .swiper-container .swiper-slide{
         position: relative;
@@ -536,7 +625,7 @@
     .index-center-one .swiper-box .swiper-pagination {
         margin-top: -30px;
         left:50%;
-        margin-left:-17px;
+        margin-left:-90px;
     }
 }
 
