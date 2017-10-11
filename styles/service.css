@@ -1,0 +1,175 @@
+.service-card-box{
+    width: 100%;
+}
+/* 服务四个导航的样式 */
+.service-card-box .service-card-container{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.service-card-box .service-card-container .service-card{
+    max-width: 1200px;
+    width: 25%;
+}
+.service-card-box .service-card-container .service-card .card-box{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.service-card-box .service-card-container .service-card .card-box .ico{
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    color: #23c132;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    background: RGBA(195, 185, 185, 0.21);
+    text-align: center;
+    border: 4px solid #ffffff;
+    outline: 1px solid #dddddd;
+    display: flex;
+    justify-content: center;
+}
+.service-card-box .service-card-container .service-card .card-box .ico:hover{
+    background: #23c132;
+    color: #fff;
+}
+.service-card-box .service-card-container .service-card .card-box .ico .iconfont{
+    display: flex;
+    align-items: center;
+    font-family:"iconfont"!important;
+    font-size: 32px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+
+.service-card-box .service-card-container .service-card .card-box h2{
+    color: #333;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.service-card-box .service-card-container .service-card .card-box p{
+    margin: 0 0 10px;
+    font-weight: 300;
+    box-sizing: border-box;
+    text-align: center;
+    color: #333;
+    
+}
+
+/* 服务介绍的样式 */
+.service-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.service-container .service-left{
+    width: 50%;
+    height: 100%;
+}
+.service-left-1{
+    background: url(../images/service/fuwu-1.jpg);
+    background-size: cover;
+}
+.service-left-2{
+    background: url(../images/service/fuwu-2.jpg);
+    background-size: cover;
+}
+.service-container .service-right{
+    width: 50%;
+    height: 100%;
+}
+.service-right-1{
+    background: url(../images/service/fuwu-3.jpg);
+    background-size: cover;
+}
+.service-right-2{
+    background: url(../images/service/fuwu-4.jpg);
+    background-size: cover;
+}
+.service-container .service-box{
+    font-weight: lighter;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 16px;
+}
+.service-container .service-left .service-box{
+    padding: 90px 50px 90px 200px;
+}
+.service-container .service-right .service-box{
+    padding: 90px 200px 90px 50px;
+}
+.service-container .service-box:hover{
+    background: #23c132;
+    color: #fff;
+    text-shadow: none;
+}
+.service-container h3{
+    text-shadow: 1px 1px 1px #444;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.service-container .service-left h3{
+    text-align: right
+}
+.service-container .service-right h3{
+    text-align: left
+}
+.service-container p{
+    margin: 0 0 10px;
+    box-sizing: border-box;
+    font-weight: lighter;
+    cursor: pointer;
+    color: #fff;
+}
+.service-container .service-left p{
+    text-align: right
+}
+.service-container .service-right p{
+    text-align: left
+}
+
+@media screen and (max-width: 1200px){
+    .service-card-box .service-card-container .service-card{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .service-container .service-left{
+        width: 100%;
+        height: 100%;
+        background: #cccccc;
+    }
+    .service-container .service-right{
+        width: 100%;
+        height: 100%;
+        background: #cccccc;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .service-card-box .service-card-container .service-card{
+        width: 100%;
+    }
+}

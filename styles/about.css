@@ -34,7 +34,7 @@
 
 .contact-form {
     background: #ffffff;
-    padding: 147px 0;
+    padding: 100px 0;
     border-bottom: 1px solid #515663;
     height: 338px;
 }
@@ -91,6 +91,73 @@
     height: 50px;
 }
 
+.our-team{
+    padding: 22px 0 24px;
+}
+.our-team .wap{
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.our-team .wap .atit h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.our-team .wap .atit h2 span{
+    color: #23c132;
+}
+.our-team .wap .atit p{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.team-member{
+    display: flex;
+}
+.team-member .card-box{
+    width: 33.33%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.team-member .team-card{
+    width: 218px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.team-member .team-card .over-loop{
+    position: absolute;
+    left: 0;
+    top: 300px;
+    width: 100%;
+    height: 100%;
+    background: RGBA(35,193,50,0.5)
+}
+.team-member .team-card .over-loop .info{
+    position: relative;
+    height: 24px;
+    padding: 100px 20px 20px 20px;
+}
+.team-member .team-card .over-loop .info h3{
+    color: #ffffff;
+    text-align: center;
+}
+.team-member .team-card .over-loop .info p{
+    color: #ffffff;
+    text-align: center;
+}
+.team-member .team-card .over-loop .learn-more{
+    position: absolute;
+    color: #ffffff;
+    width: 218px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    bottom: 0;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 960px) {
     .container-about .about-text {
         position: absolute;
@@ -124,4 +191,37 @@
         margin: 0 auto;
         margin-top: 40px;
     }
+
+    .team-member{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team-member .card-box{
+        width: 50%;
+        height: 300px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .team-member .team-card{
+        width: 218px;
+        height: 300px;
+    }
 }
+@media screen and (max-width: 560px){
+    .team-member{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .team-member .card-box{
+        width: 100%;
+        height: 300px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    .team-member .team-card{
+        width: 218px;
+        height: 300px;
+    }
+} 

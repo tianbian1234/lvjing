@@ -1,4 +1,23 @@
 $(document).ready(function () {
+    // 设置banner的样式
+    var height = window.innerHeight;
+    $('.container-index .swiper-container .swiper-slide .imgBack').height(height);
+    window.addEventListener('resize',function(){
+        height = window.innerHeight;
+        $('.container-index .swiper-container .swiper-slide .imgBack').height(height);
+    })
+
+    $('.topShow').hide();
+    window.addEventListener('scroll', function(){
+        var top = document.documentElement.scrollTop || document.body.scrollTop;
+        var innerHeight = window.innerHeight;
+        if(top > 100){
+            $('.topShow').fadeIn(1000);
+        }else{
+            $('.topShow').fadeOut(500);
+        }
+    })
+    // swiper的设置
     var mySwiper = new Swiper ('.swiper-container1', {
         direction: 'horizontal',
         loop: true,

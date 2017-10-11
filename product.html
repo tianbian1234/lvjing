@@ -3,6 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
     <title>恩次方创客 | 课程介绍</title>
     <link rel="shortcut icon" type="image/x-icon" href="./bitbug_favicon.ico" media="screen" />
     <link rel="stylesheet" href="styles/swiper.min.css">
@@ -10,30 +14,7 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/first.css">
     <link rel="stylesheet" href="styles/product.css">
-  <script type='text/javascript'>
-    var _vds = _vds || [];
-    window._vds = _vds;
-    (function(){
-      _vds.push(['setAccountId', '92ea07fef4673656']);
-      (function() {
-        var vds = document.createElement('script');
-        vds.type='text/javascript';
-        vds.async = true;
-        vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(vds, s);
-      })();
-    })();
-  </script>
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?5e08a1592e4566351f6b4f997bf19c2b";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
+    <link rel="stylesheet" href="styles/animate.min.css">
 </head>
 <body>
     <div class="nav-container-back">
@@ -44,10 +25,11 @@
         <div class="list-center">
           <ul>
             <li><a href="index.html">首页</a></li>
+            <li><a href="classes.html">课程介绍</a></li>
             <li class="item-active"><a href="product.html">创客空间</a></li>
             <li><a href="custom.html">赛事介绍</a></li>
-            <li><a href="custom.html">创新服务</a></li>
-            <li><a href="custom.html">开设案例</a></li>
+            <li><a href="service.html">创新服务</a></li>
+            <li><a href="case.html">开设案例</a></li>
             <li><a href="about.html">关于我们</a></li>
           </ul>
         </div>
@@ -64,53 +46,54 @@
       </nav>
     </div>
     <div class="container-product">
+        <div class="back"></div>
         <div class="content-pro">
             <div class="product-inter">
-                <h1>轻松搭建一站式企业数据分析平台</h1>
-                <p>DataHunter数据可视化分析系统帮助企业轻松搭建一站式数据分析平台，统一进行数据汇聚管理，
-                    通过数据混合交叉分析、多维度的探索式分析，轻松实现数据决策。
+                <h1>创客空间--为学员提供轻松地学习基地</h1>
+                <p>创新实验室是进行创新教育的载体，是学生进行创造性活动的场所，可以为学生提供创客教育、竞赛培训等服务，
+                    是教育中提高学生创新能力的重要保障。
                 </p>
             </div>
-            <img src="images/product/product1.png" alt="值">
+            <!-- <img src="images/product/product1.png" alt="值"> -->
         </div>
     </div>
     <div class="container-center">
         <div class="product-card-box">
             <div class="product-card">
-                <div class="text">
-                    <h4>实时多屏展示</h4>
-                    <p>实时数据监控，掌握业务动态，支持电视、电脑、手机等设备的多屏同步显示，更全面地呈现结果。</p>
+                <div class="text wow bounceInLeft" data-wow-delay="0.5s">
+                    <h4>创客教学体验区</h4>
+                    <p>创客教学体验区主要引入STEAM创新教学模式，打破传统教育界限，只要有兴趣的学员，无论任何专业任何年级都可以参加创客学习，成为创客群体中的一员</p>
                 </div>
-                <img src="images/product/duoping.png" alt="">
+                <img src="images/product/11.jpg" class="wow bounceInRight" data-wow-delay="0.5s" alt="">
             </div>
             <div class="color-from"></div>
         </div>
         <div class="product-card-box product-card-box-2">
             <div class="product-card product-card-1">
-                <img src="images/product/fenxi.png" alt="">
-                <div class="text">
-                    <h4>深度交互分析</h4>
-                    <p>在杂乱的数据中快速定位，点击即可实现筛选、跳转、Zoom等各类分析，交互式操作让数据分析更精准、便捷。</p>
+                <img class="wow bounceInLeft" data-wow-delay="0.5s" src="images/product/22.jpg" alt="">
+                <div class="text wow bounceInRight" data-wow-delay="0.5s">
+                    <h4>开发创造区</h4>
+                    <p>当校园创客们有了自己的创意想法后，就可以协同团队成员在制造区进行产品的创作发明。这个区域采用开放的空间布局，为创客们提供临时工作的区域，便于进行简短的探讨、交流。 </p>
                 </div>
             </div>
             <div class="color-from"></div>
         </div>
         <div class="product-card-box">
             <div class="product-card">
-                <div class="text">
-                    <h4>兼容不同数据源</h4>
-                    <p>灵活接入与同步多种数据源，包括各类数据库连接、API、Excel及JSON文件，满足企业多种多样的业务场景。</p>
+                <div class="text wow bounceInLeft" data-wow-delay="0.5s">
+                    <h4>创客交流区</h4>
+                    <p>创客交流区主要为校园创客们提供一个线下交流沟通的平台，在这里他们可以结识到志同道合的朋友，大家一起通过思想上的碰撞让大脑飞转，通过开放式的交流完善想法，完善创意，在这里创客团队们可以通过交流讨论组建团队完成项目。创客交流区是一个可以让在校学生的创造力得到无限发挥的地方，是一个开放、创新、协作、共享的创客孵化平台。 </p>
                 </div>
-                <img src="images/product/jianrong.png" alt="">
+                <img class="wow bounceInRight" data-wow-delay="0.5s" src="images/product/33.jpg" alt="">
             </div>
             <div class="color-from"></div>
         </div>
         <div class="product-card-box product-card-box-4">
             <div class="product-card product-card-1">
-                <img src="images/product/shuju.png" alt="">
-                <div class="text">
-                    <h4>支持海量数据</h4>
-                    <p>采用先进的大数据处理技术，支持T级数据量，各种数据量均可快速响应，为您不断增长的数据量提供保障。</p>
+                <img class="wow bounceInLeft" data-wow-delay="0.5s" src="images/product/44.jpg" alt="">
+                <div class="text wow bounceInRight" data-wow-delay="0.5s">
+                    <h4>成果展示区</h4>
+                    <p>成果展示区主要用于创客们创作产品的展示。同时也可以作为赛前的训练场地，在此进行机器调试。</p>
                 </div>
             </div>
             <div class="color-from"></div>
@@ -118,27 +101,27 @@
     </div>
     <div class="index-center-two product-fangan">
         <div class="content">
-            <h1>多样化部署方案</h1>
+            <h1>丰富多样的硬件配置</h1>
             <div class="card-box">
                 <div class="card">
                     <img src="images/product/qiye.png" alt="维度">
                     <div>
-                        <h4>企业独立部署</h4>
-                        <p>在防火墙内部或私有云上部署整套解决方案，保证企业数据的绝对安全。</p>
+                        <h4>课程独立空间</h4>
+                        <p>拥有自己的教学教室，内部设备完善，方便学生学习</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/product/yunduan.png" alt="数据">
                     <div>
-                        <h4>云端SaaS服务</h4>
-                        <p>使用云端解决方案，降低企业IT投入，真正实现开箱即用。</p>
+                        <h4>机器设备全面</h4>
+                        <p>所应用的设备全面完善，没有学习不到知识的担忧</p>
                     </div>
                 </div>
                 <div class="card">
                     <img src="images/product/jicheng.png" alt="系统">
                     <div>
-                        <h4>嵌入式集成</h4>
-                        <p>与企业原有系统无缝集成，深度定制界面确保带给用户平滑的体验。</p>
+                        <h4>教学课程齐备</h4>
+                        <p>教学课程完整，经过所有老师的努力，课程的教学文件日趋完善。</p>
                     </div>
                 </div>
             </div>
@@ -146,20 +129,22 @@
     </div>
     <div class="container-custom container-custom-product">
         <div class="content">
-            <h2>立即体验DataHunter数据分析系统</h2>
-            <div><a href="#">马上注册</a></div>
+            <h2>为孩子创造一片属于自己的蓝天</h2>
+            <div><a href="#">联系我们</a></div>
         </div>
     </div>
     <div class="container-footer">
         <div class="text">
             <p>
-                <a href="./product.html">数据分析</a>
-                <a href="./custom.html">数据大屏</a>
+                <a href="./product.html">创客空间</a>
+                <a href="./custom.html">赛事介绍</a>
+                <a href="./about.html">创新服务</a>
+                <a href="./about.html">开设案例</a>
                 <a href="./about.html">关于我们</a>
             </p>
-            <p style="margin-bottom: 0;">400-1024-262</p>
-            <p>support@datahunter.cn</p>
-            <p style="font-size: 14px;">京ICP备12012797号  ©2016 DataHunter Inc.All Rights Reserved</p>
+            <p style="margin-bottom: 0;">13803175403</p>
+            <p>709047954@qq.com</p>
+            <p style="font-size: 10px;">恩次方创客空间</p>
         </div>
         <div class="tiny">
             <img src="images/index/barcode.png" alt="二维码">
@@ -170,6 +155,7 @@
     <script src="public/jquery.min.js"></script>
     <!--<script src="../public/bootstrap.min.js"></script>-->
     <script src="public/swiper.jquery.min.js"></script>
+    <script src="public/wow.min.js"></script>
     <script src="public/public.js"></script>
     <script src="public/product.js"></script>
 </body>

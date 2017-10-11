@@ -1,0 +1,401 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    color: RGBA(68, 68, 68);
+    font-size: 12px;
+    line-height: 1.5;
+}
+div, ul, ol, p, h2, h4 {
+    margin: 0;
+    padding: 0;
+}
+ul, ol {
+    list-style: none;
+}
+a{
+    color: #444;
+    text-decoration: none;
+}
+ /* 信息展示的模块 */
+.ind-row1{
+    position: relative;
+    width: 100%;
+    padding: 27px 0;
+    background: url(../images/index/content.jpg) no-repeat center center;
+}
+.ind-row1 .back{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: RGBA(255, 255, 255, 0.4)
+}
+.ind-row1 .wp{
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.ind-row1 .wp .ul-pictxt2-ind{
+    overflow: hidden;
+    margin-left: -43px;
+}
+.ind-row1 .wp .ul-pictxt2-ind li{
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.g-tit1{
+    color: #999;
+    overflow: hidden;
+}
+.g-tit1 em{
+    margin-right: 5px;
+    float: left;
+    font-size: 42px;
+    line-height: 1.4;
+    font-weight: 400;
+    font-style: normal;
+}
+.g-tit1 a{
+    display: block;
+    float: right;
+    background-color: #23c132;
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0 10px;
+    margin-top: 14px;
+    text-decoration: none;
+}
+.g-tit1 h2{
+    padding-top: 10px;
+    color: #23c132;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.g-tit1 span{
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.ind-row1 .wp .ul-pictxt2-ind li a{
+    display: block;
+    margin-left: 43px;
+    color: #444;
+    text-decoration: none;
+    cursor: auto;
+}
+.ind-row1 .wp .ul-pictxt2-ind li a:hover{
+    color: #ffffff;
+}
+.ind-row1 .wp .ul-pictxt2-ind .tit{
+    line-height: 40px;
+    height: 40px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    color: #23c132;
+    border-bottom: #aaa 1px dashed;
+}
+.ind-row1 .wp .ul-pictxt2-ind li a p span{
+    display: block;
+    float: right;
+}
+/* 关于模块 */
+.ind-row2{
+    padding: 22px 0 24px;
+}
+.wap{
+    width: 98%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.ind-pictxt{
+    padding-top: 22px;
+    overflow: hidden;
+}
+.ind-pictxt .pic{
+    width: 44.2%;
+    float: left;
+    margin-right: 30px;
+}
+.ind-pictxt .picbox{
+    padding-top: 75%;
+    position: relative;
+}
+.ind-pictxt .picbox img{
+    border-radius: 15px;
+}
+.picbox img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+img{
+    max-width: 100%;
+    border: 0;
+}
+
+.ind-pictxt .picbox .tit{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 17px;
+    background: url(../images/classes/lm-p8.png) repeat 0 0;
+    border-radius: 0 0 15px 15px;
+
+}
+.ind-txt-list{
+    overflow: hidden;
+    padding: 20px 0 10px;
+    background: url(../images/classes/lm-p7.png) no-repeat 12px center;
+}
+.ind-txt-list li:nth-child(1){
+    margin-left: 10px;
+}
+.ind-txt-list li:nth-child(2){
+    margin-left: 15px;
+}
+.ind-txt-list li:nth-child(3){
+    margin-left: 5px;
+}
+.ind-txt-list li{
+    overflow: hidden;
+    margin-bottom: 26px;
+}
+.ind-txt-list span{
+    float: left;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #23c132;
+}
+.ind-txt-list span em{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 3px;
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+    color: #FFF;
+    border-radius: 50%;
+    background: #23c132;
+}
+.ind-txt-list .txt{
+    overflow: hidden;
+}
+.ind-txt-list h4{
+    padding-top: 5px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #23c132;
+    font-weight: bolder;
+}
+.ind-txt-list p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #666;
+}
+/* 课堂模块 */
+.inde-row3{
+    padding: 17px 0 37px;
+}
+.ul-pictxt-ind{
+    overflow: hidden;
+    margin-left: -25px;
+}
+.ul-pictxt-ind li{
+    float: left;
+    width: 33.33%;
+}
+.ul-pictxt-ind li .inner{
+    margin-left: 25px;
+    border: 1px solid #e4e4e4;
+}
+.ul-pictxt-ind .picbox{
+    padding-top: 75%;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+.picbox{
+    position: relative;
+}
+.ul-pictxt-ind .txt{
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 22px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.ul-pictxt-ind .txt h3{
+    line-height: 48px;
+    font-size: 17px;
+    height: 48px;
+    white-space: nowrap;
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid #e4e4e4;
+}
+.ul-pictxt-ind .txt a{
+    color: #23c132;
+}
+.ul-pictxt-ind .txt p{
+    margin: 10px 0;
+    color: #666;
+    font-size: 14px;
+    line-height: 22px;
+    height: 66px;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.g-btnbox {
+    padding: 12px 12px 9px;
+}
+.g-btnbox a {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 26px;
+    margin-bottom: 3px;
+    background: #23c132;
+    color: #fff;
+    font-size: 14px;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+/* 固定的联系方式 */
+.float_menu {
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    top: 55%;
+}
+.float_menu a{
+    display: block;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #89bc04;
+    position: relative;
+}
+.float_menu a i.ico_a{
+    background-position: left top;
+}
+.float_menu a i.ico_b{
+    background-position: -26px top;
+}
+.float_menu a i.ico_c {
+    background-position: -52px top;
+}
+.float_menu a i{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    overflow: hidden;
+    margin: 11px;
+    background-image: url(/mat/dist/images/index/f_ico.png);
+}
+.float_menu a em {
+    display: block;
+    position: absolute;
+    right: 50px;
+    top: 0;
+    background-color: #89bc04;
+    line-height: 50px;
+    font-size: 16px;
+    color: #f5c15b;
+    padding: 0 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@media screen and (max-width:1600px){
+    .wp{
+        width: 98%; 
+    }
+}
+@media screen and (max-width:1199px){
+    .ind-row1 .wp .ul-pictxt2-ind .tit{
+        line-height: 35px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .ind-txt-list li {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:959px){
+    .ul-pictxt-ind {
+        margin-left: -10px;
+    }
+    .ul-pictxt-ind li .inner{
+        margin-left: 10px;
+    }
+    .ul-pictxt-ind .txt h3 {
+        font-size: 14px;
+        line-height: 35px;
+        height: 35px;
+    }
+    .ul-pictxt-ind .txt p {
+        font-size: 12px;
+        line-height: 20px;
+        height: auto;
+        margin: 5px 0;
+    }
+}
+@media screen and (max-width:767px){
+    .ind-row1 .wp .ul-pictxt2-ind li {
+        float: none;
+        width: auto;
+        margin-bottom: 15px;
+    }
+    .ind-pictxt .pic {
+        margin: 0;
+        float: none;
+        width: auto;
+    }
+    .ind-txt-list {
+        margin-top: 10px;
+    }
+    .ul-pictxt-ind {
+        padding: 10px 0;
+    }
+    .ul-pictxt-ind li{
+        float: none;
+        width: auto;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:479px){
+    .ind-txt-list h4 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .ul-pictxt-ind .txt{
+        padding: 0 10px;
+    }
+}

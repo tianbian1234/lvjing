@@ -1,5 +1,33 @@
 $(document).ready(function () {
     loadBaiduMap();
+    $(".team-card1").mouseenter(function(){
+        $(".over-loop1").animate({top:'0px'});
+    })
+    $(".team-card1").mouseleave(function(){
+        $(".over-loop1").animate({top:'300px'});
+    })
+
+
+    $(".team-card2").mouseenter(function(){
+        $(".over-loop2").animate({top:'0px'});
+    })
+    $(".team-card2").mouseleave(function(){
+        $(".over-loop2").animate({top:'300px'});
+    })
+
+    $(".team-card3").mouseenter(function(){
+        $(".over-loop3").animate({top:'0px'});
+    })
+    $(".team-card3").mouseleave(function(){
+        $(".over-loop3").animate({top:'300px'});
+    })
+
+    $(".team-card4").mouseenter(function(){
+        $(".over-loop4").animate({top:'0px'});
+    })
+    $(".team-card4").mouseleave(function(){
+        $(".over-loop4").animate({top:'300px'});
+    })
 });
 //初始化百度地图
 function initialize() {

@@ -10,10 +10,13 @@
     position: relative;
     width: 100%;
     height: 630px;
-    background: url("../images/index/bannerC.jpg");
+    background: url("../images/index/bannerC1.jpg");
     background-size: cover;
     z-index: 1;
     background-position: center;
+}
+.container-nav-custom-case{
+    background: url("../images/index/case.jpg");
 }
 
 .custom-text{
