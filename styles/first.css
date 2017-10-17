@@ -19,7 +19,7 @@
     width: 100%;
 }
 .container-index .swiper-container .swiper-slide .imgBack1 {
-   background: url("../images/first/banner1.jpg");
+   background: url("../images/first/banner4.jpg");
 }
 .container-index .swiper-container .swiper-slide .imgBack2 {
   background: url("../images/first/banner2.jpg");
@@ -41,6 +41,7 @@
     left:0;
     top: 10%;
     text-align: center;
+    font-family: "KaiTi";
 }
 .container-index .swiper-container .swiper-slide .text h1 {
     color: #ffffff;
@@ -73,6 +74,7 @@
 .index-center-one{
     width: 100%;
     height: 547px;
+    background: #eeeeee;
 }
 .content {
     max-width: 1200px;
@@ -204,7 +206,6 @@
     width: 100%;
     height: 642px;
     padding-top: 114px;
-    background: #eeeeee;
 }
 .index-center-two .content {
     width: 90%;
