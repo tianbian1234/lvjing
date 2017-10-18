@@ -51,4 +51,18 @@ $(document).ready(function () {
         prevButton: '.swiper-button-prev2',
 //pagination : '#swiper-pagination1',
     });
+    var mySwiper3 = new Swiper ('.swiper-container3', {
+        direction: 'horizontal',
+        loop: true,
+        autoplay:5000,
+
+        // 如果需要分页器
+        pagination: '.swiper-pagination3',
+        paginationType : 'bullets',
+        paginationClickable: true,
+        // 如果需要前进后退按钮
+        nextButton: '.swiper-button-next3',
+        prevButton: '.swiper-button-prev3',
+
+    });
 });

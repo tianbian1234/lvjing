@@ -109,6 +109,17 @@ a{
     display: block;
     float: right;
 }
+
+/* 视频展示模块 */
+.ind-row3{
+    padding: 22px 0 24px;
+}
+.video-set{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
 /* 关于模块 */
 .ind-row2{
     padding: 22px 0 24px;
@@ -131,8 +142,37 @@ a{
     padding-top: 75%;
     position: relative;
 }
+
 .ind-pictxt .picbox img{
     border-radius: 15px;
+}
+.ind-pictxt .picbox .swiper-box{
+    border-radius: 15px;
+    width: 600px;
+    height: 300px;
+}
+.ind-pictxt .picbox .swiper-box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.ind-pictxt .picbox .swiper-box {
+    max-width: 100%;
+    border: 0;
+}
+.ind-pictxt .picbox .swiper-box .swiper-container{
+    width: 100%;
+    height: 100%;
+}
+.ind-pictxt .picbox .swiper-box .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.ind-pictxt .picbox .swiper-box .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 100%;
 }
 .picbox img{
     position: absolute;
@@ -157,7 +197,7 @@ img{
     font-size: 17px;
     background: url(../images/classes/lm-p8.png) repeat 0 0;
     border-radius: 0 0 15px 15px;
-
+    z-index: 9999;
 }
 .ind-txt-list{
     overflow: hidden;

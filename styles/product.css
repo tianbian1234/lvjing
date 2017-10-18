@@ -8,6 +8,12 @@
     background-position: center;
     box-shadow: 0 5px 30px RGBA(0, 0, 0, 0.15);
 }
+.container-server{
+    height:630px;
+    background: url("../images/index/bannerC1.jpg");
+    background-size: cover;
+    background-position: center;
+}
 .container-product .back{
     position: absolute;
     top: 0;
