@@ -129,7 +129,7 @@
     padding-top: 5px;
 }
 .index-center-three .content .information{
-    width: 860px;
+    width: 960px;
     height: 340px;
     display: flex;
     flex-direction: row;
@@ -138,7 +138,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 230px;
 }
 .index-center-three .content .information .card .back{
     position: absolute;
@@ -166,7 +166,7 @@
     background-size: cover;
 }
 .index-center-three .content .information .card img{
-    margin-left: 72px;
+    margin-left: 86px;
     margin-top: 30px;
     cursor: pointer;
     transform: rotate(0deg);
@@ -180,7 +180,7 @@
     transform: rotate(-180deg);
 }
 .index-center-three .content .information .card> div{
-    width: 180px;
+    width: 210px;
     margin: 20px 10px 0 10px;
     z-index: 9999;
 }
@@ -191,28 +191,36 @@
     /*第五个大卡片*/
 .index-center-four{
     width: 100%;
-    height: 600px;
+    height: 1050px;
     background: #ffffff;
 }
 .index-center-four .content .information{
     width: 940px;
-    height: 300px;
+    height: 750px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 .index-center-four .content .information .card{
     position: relative;
-    width: 188px;
-    height: 150px;
+    width: 313px;
+    height: 250px;
     overflow: hidden;
 }
+.index-center-four .content .information .card1{
+    width: 235px;
+    height: 187px;
+}
 .index-center-four .content .information .card img{
-    width: 188px;
-    height: 150px;
+    width: 313px;
+    height: 250px;
     margin: 0;
     cursor: pointer;
     transition: all 1s;
+}
+.index-center-four .content .information .card .img1{
+    width: 235px;
+    height: 187px;
 }
 .index-center-four .content .information .card img:hover{
     transform: scale(1.4);
@@ -362,6 +370,152 @@
 /*底部设置*/
 .container-custom-index{
     height: 320px;
+}
+@media screen and (max-width: 1440px) {
+    .container-index .nav-container{
+        position:absolute;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+        z-index: 2;
+    }
+
+    /*banner展示*/
+    .container-index .swiper-container {
+        width: 100%;
+    }
+    .container-index .swiper-container .swiper-slide img {
+        width: 100%;
+    }
+    .container-index .swiper-container .swiper-slide .imgBack {
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+    }
+    .container-index .swiper-container .swiper-slide {
+        position: relative;
+    }
+    .container-index .swiper-container .swiper-slide .text {
+        position: absolute;
+        width: 100%;
+        left:0;
+        top: 8%;
+        text-align: center;
+    }
+    .container-index .swiper-container .swiper-slide .text h1 {
+        color: #ffffff;
+        font-size: 46px;
+        height: 56px;
+        line-height: 56px;
+        margin-bottom: 13px;
+    }
+    .container-index .swiper-container .swiper-slide .text p {
+        color: #ffffff;
+        font-size: 32px;
+        letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container-index .nav-container{
+        position:absolute;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+        z-index: 2;
+    }
+    /*第三个大卡片*/
+    .index-center-one {
+        height: 100%;
+    }
+    .index-center-one .swiper-box {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .index-center-one .swiper-box .swiper-container {
+        width: 80%;
+        height: 450px;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide{
+        position: relative;
+        background: #ffffff;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container{
+        width: 98%;
+        height: 75%;
+        margin: 37px auto 10px;
+        border:1px solid RGBA(151, 151, 151, 0.18);
+        box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box {
+        position: relative;
+        height: 37px;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box > img {
+        position: absolute;
+        left:50%;
+        top:-37px;
+        margin-left: -37px;
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        border: 1px solid RGBA(151, 151, 151, 0.18);
+        box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container > div {
+        width:80%;
+        margin: 0 auto;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container h2{
+        margin-top: 8px;
+        margin-bottom: 3px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 22px;
+        color: #666666;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .small-title{
+        font-size: 12px;
+        height: 17px;
+        line-height: 17px;
+        margin-bottom: 21px;
+        color: #999999;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .content{
+        font-size: 14px;
+        color: #888888;
+    }
+
+    .swiper-box:hover .swiper-button-prev, .swiper-box:hover .swiper-button-next {
+        display: block;
+    }
+
+    .index-center-one .swiper-box .swiper-pagination {
+        margin-top: -30px;
+        left:50%;
+        margin-left:-90px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .container-index .nav-container{
+        position:absolute;
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        top: 0;
+        z-index: 2;
+    }
 }
 
 @media screen and (max-width: 680px) {
@@ -551,150 +705,5 @@
         margin-top: -30px;
         left:50%;
         margin-left:-90px;
-    }
-}
-@media screen and (max-width: 960px) {
-    .container-index .nav-container{
-        position:absolute;
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        top: 0;
-        z-index: 2;
-    }
-}
-@media screen and (max-width: 1200px) {
-    .container-index .nav-container{
-        position:absolute;
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        top: 0;
-        z-index: 2;
-    }
-    /*第三个大卡片*/
-    .index-center-one {
-        height: 100%;
-    }
-    .index-center-one .swiper-box {
-        position: relative;
-        width: 80%;
-        height: 100%;
-        margin: 0 auto;
-    }
-    .index-center-one .swiper-box .swiper-container {
-        width: 80%;
-        height: 450px;
-    }
-    .index-center-one .swiper-box .swiper-container .swiper-slide{
-        position: relative;
-        background: #ffffff;
-    }
-    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container{
-        width: 98%;
-        height: 75%;
-        margin: 37px auto 10px;
-        border:1px solid RGBA(151, 151, 151, 0.18);
-        box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
-    }
-    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box {
-        position: relative;
-        height: 37px;
-    }
-    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .img-box > img {
-        position: absolute;
-        left:50%;
-        top:-37px;
-        margin-left: -37px;
-        width: 73px;
-        height: 73px;
-        border-radius: 50%;
-        border: 1px solid RGBA(151, 151, 151, 0.18);
-        box-shadow: 0 10px 30px 0 RGBA(0, 0, 0, 0.08);
-    }
-    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container > div {
-        width:80%;
-        margin: 0 auto;
-    }
-    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container h2{
-        margin-top: 8px;
-        margin-bottom: 3px;
-        height: 30px;
-        line-height: 30px;
-        font-size: 22px;
-        color: #666666;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .small-title{
-        font-size: 12px;
-        height: 17px;
-        line-height: 17px;
-        margin-bottom: 21px;
-        color: #999999;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
-    .index-center-one .swiper-box .swiper-container .swiper-slide .card-container .content{
-        font-size: 14px;
-        color: #888888;
-    }
-
-    .swiper-box:hover .swiper-button-prev, .swiper-box:hover .swiper-button-next {
-        display: block;
-    }
-
-    .index-center-one .swiper-box .swiper-pagination {
-        margin-top: -30px;
-        left:50%;
-        margin-left:-90px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .container-index .nav-container{
-        position:absolute;
-        width: 100%;
-        left: 0;
-        margin-left: 0;
-        top: 0;
-        z-index: 2;
-    }
-
-    /*banner展示*/
-    .container-index .swiper-container {
-        width: 100%;
-    }
-    .container-index .swiper-container .swiper-slide img {
-        width: 100%;
-    }
-    .container-index .swiper-container .swiper-slide .imgBack {
-      height: 600px;
-      background-size: cover;
-      background-position: center;
-    }
-    .container-index .swiper-container .swiper-slide {
-        position: relative;
-    }
-    .container-index .swiper-container .swiper-slide .text {
-        position: absolute;
-        width: 100%;
-        left:0;
-        top: 8%;
-        text-align: center;
-    }
-    .container-index .swiper-container .swiper-slide .text h1 {
-        color: #ffffff;
-        font-size: 46px;
-        height: 56px;
-        line-height: 56px;
-        margin-bottom: 13px;
-    }
-    .container-index .swiper-container .swiper-slide .text p {
-        color: #ffffff;
-        font-size: 32px;
-        letter-spacing: 5px;
     }
 }
