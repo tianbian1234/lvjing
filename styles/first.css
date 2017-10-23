@@ -516,6 +516,60 @@
         top: 0;
         z-index: 2;
     }
+    .index-center-three{
+        position: relative;
+        width: 100%;
+        height: 1002px;
+        background: #eeeeee;
+    }
+    .index-center-three .content .information{
+        width: 480px;
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .index-center-three .content .information .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 230px;
+    }
+    /* 第五个大卡片 */
+    .index-center-four{
+        width: 100%;
+        height: 1865px;
+        background: #ffffff;
+    }
+    .index-center-four .content .information{
+        width: 626px;
+        height: 1565px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .index-center-four .content .information .card{
+        position: relative;
+        width: 313px;
+        height: 250px;
+        overflow: hidden;
+    }
+    .index-center-four .content .information .card1{
+        width: 313px;
+        height: 250px;
+    }
+    .index-center-four .content .information .card img{
+        width: 313px;
+        height: 250px;
+        margin: 0;
+        cursor: pointer;
+        transition: all 1s;
+    }
+    .index-center-four .content .information .card .img1{
+        width: 313px;
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 680px) {
@@ -705,5 +759,87 @@
         margin-top: -30px;
         left:50%;
         margin-left:-90px;
+    }
+
+    /* 第四个大卡片 */
+    .index-center-three{
+        position: relative;
+        width: 100%;
+        height: 1002px;
+        background: #eeeeee;
+    }
+    .index-center-three .content .information{
+        width: 480px;
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .index-center-three .content .information .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 230px;
+    }
+
+    /* 第五个大卡片 */
+    .index-center-four{
+        width: 100%;
+        height: 3265px;
+        background: #ffffff;
+    }
+    .index-center-four .content .information{
+        width: 315px;
+        height: 2965px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .index-center-four .content .information .card{
+        position: relative;
+        width: 313px;
+        height: 250px;
+        overflow: hidden;
+    }
+    .index-center-four .content .information .card1{
+        width: 313px;
+        height: 250px;
+    }
+    .index-center-four .content .information .card img{
+        width: 313px;
+        height: 250px;
+        margin: 0;
+        cursor: pointer;
+        transition: all 1s;
+    }
+    .index-center-four .content .information .card .img1{
+        width: 313px;
+        height: 250px;
+    }
+
+}
+@media screen and (max-width: 480px){
+    .index-center-three{
+        position: relative;
+        width: 100%;
+        height: 1702px;
+        background: #eeeeee;
+    }
+    .index-center-three .content .information{
+        width: 250px;
+        height: 1400px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .index-center-three .content .information .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 230px;
+        height: 350px;
+        margin-bottom: 0;
     }
 }
